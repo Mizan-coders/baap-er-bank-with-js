@@ -13,5 +13,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     // DANGER: DO NOT VARIFY email password on the client side
     // step-4: varify email and password and check whether valid user or not 
-
+    if(email === 'indrajithgoswami@gmail.com' && password === 'indra1234'){
+        window.location.href='bank.html';
+    }
+    else{
+        alert('মাথায় কি ঘিলু নাই..?!😡')
+    }
 });
