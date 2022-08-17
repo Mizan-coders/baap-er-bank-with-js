@@ -10,7 +10,7 @@ document.getElementById('btn-deposit').addEventListener('click',function(){
     depositField.value = '';
 
     // validation
-    if(isNaN(newDepositAmount)){
+    if(isNaN(newDepositAmount) || newDepositAmount <= 0){
         alert('Enter a valid number');
         return;
     }
