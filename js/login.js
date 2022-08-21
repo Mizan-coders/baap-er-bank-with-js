@@ -13,7 +13,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     // DANGER: DO NOT VARIFY email password on the client side
     // step-4: varify email and password and check whether valid user or not 
-    if(email === 'abcd@gmail.com' && password === 'abcd1234'){
+    if(email === 'infomizan@gmail.com' && password === 'mizan6829'){
         window.location.href='bank.html';
     }
     else{
